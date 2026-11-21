@@ -1,0 +1,8 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+kahvecell.db
+kahvecell.db-shm
+kahvecell.db-wal
