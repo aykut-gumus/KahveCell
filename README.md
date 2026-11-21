@@ -10,6 +10,18 @@ Backend'i `backend` klasöründe başlatın:
 
 Swagger: <http://localhost:8000/docs>
 
+## Frontend
+
+React 19, Vite, React Router, Leaflet ve QR kod bileşeni kullanılır. Backend API adresi varsayılan olarak `http://localhost:8000/api/v1` değerindedir; farklıysa `frontend/.env.example` dosyasını `.env.local` olarak kopyalayıp `VITE_API_BASE_URL` değerini güncelleyin.
+
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+
+Tarayıcı: <http://localhost:5173>
+
 ## API
 
 **19 adet `/api/v1` endpoint'i** ve ayrıca `/` sağlık kontrolü bulunur.
